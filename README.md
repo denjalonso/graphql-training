@@ -116,3 +116,14 @@ mutation {
   }
 }
 ```
+
+### Authentication and Express Middleware
+```
+node authentication-and-express-middleware/server.js
+```
+The query:
+```
+{
+    ip
+}
+```
