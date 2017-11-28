@@ -86,3 +86,12 @@ The query:
     threeRandomList
   }
 ```
+
+### Object types
+```
+node basic-types-scalar/server.js
+```
+The query:
+```
+ 
+```
