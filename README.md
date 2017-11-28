@@ -89,9 +89,30 @@ The query:
 
 ### Object types
 ```
-node basic-types-scalar/server.js
+node object-types/server.js
 ```
 The query:
 ```
- 
+{
+  getRandomList(seed: 6) {
+  	generateRandom
+  	generate(numRandoms: 3)
+  }
+}
+```
+
+### Mutations and input types
+```
+node object-types/server.js
+```
+The query:
+```
+mutation {
+  createMessage(input: {
+    author: "andy",
+    content: "hope is a good thing",
+  }) {
+    id
+  }
+}
 ```
