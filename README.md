@@ -127,3 +127,17 @@ The query:
     ip
 }
 ```
+
+### Constructing types graphql schema
+```
+node constructing-types-graphql-schema/server.js
+```
+The query:
+```
+{
+  user(id: "a") {
+    id
+    name
+  }
+}
+```
